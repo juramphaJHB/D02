@@ -25,6 +25,12 @@ void ft_print_comb(){
                  third++;
         } 
         second++;
+        ft_putchar(first);
+                ft_putchar(second);
+                ft_putchar(third);
+                ft_putchar(',');
+                ft_putchar(' ');
+                 third++;
         }
         first++;
     }
